@@ -1,7 +1,11 @@
 # Dead Drop Write-up
 
 **Platform**: TryHackMe <br>
-**Room**: Dead Drop (https://tryhackme.com/room/dead-drop)
+**Room**: Dead Drop (https://tryhackme.com/room/dead-drop) <br>
+**Category**: Active Directory <br>
+**Target**: Linux & Windows <br>
+**Techniques**: SQL Injection, RCE, APK Reverse Engineering, Ligolo-ng, BloodHound <br>
+**Final Goal**: Domain Administrator
 
 ## Overview
 
@@ -17,6 +21,23 @@ The room demonstrates a realistic attack chain involving:
 - Network pivoting using Ligolo-ng
 - Active Directory enumeration with BloodHound
 - Abuse of delegated Active Directory permissions
+
+### Attack Chain
+
+```mermaid
+flowchart TD
+    A[Initial Enumeration]
+    A --> B[Web Enumeration]
+    B --> C[SQL Injection]
+    C --> D[Remote Code Execution]
+    D --> E[Credential Discovery]
+    E --> F[SSH Access]
+    F --> G[APK Reverse Engineering]
+    G --> H[Network Pivoting]
+    H --> I[BloodHound Enumeration]
+    I --> J[Privilege Escalation]
+    J --> K[Domain Administrator]
+```
 
 ---
 
@@ -465,6 +486,14 @@ type 'C:\Users\Administrator\Desktop\flag.txt'
 ![alt text](image-19.png)
 
 The assessment concludes with full compromise of the Active Directory domain.
+
+# Conclusion
+
+This assessment demonstrated how multiple weaknesses across a web application, supporting infrastructure, and Active Directory environment could be chained together to achieve full domain compromise.
+
+The attack began with SQL Injection, which enabled remote code execution and access to sensitive files stored on the web server. Information recovered during local enumeration led to valid system credentials, while reverse engineering the mobile application exposed Active Directory credentials. Finally, BloodHound identified excessive delegated permissions that allowed escalation to the **Domain Admins** group.
+
+Although each finding appeared relatively limited in isolation, their combination resulted in complete compromise of the Active Directory domain. The room highlights the importance of secure application development, proper credential management, least privilege, and regular reviews of Active Directory permissions.
 
 # Remediation Recommendations
 

@@ -7,7 +7,7 @@ This repository contains detailed write-ups regarding TryHackMe challenge rooms,
 
 | Room | TryHackMe | Walkthrough |
 |------|-----------|-------------|
-| *Coming Soon* | - | - |
+| Recruit | [Room](https://tryhackme.com/room/recruitwebchallenge) | [Technical Walkthrough](Web%20Application/Recruit/Recruit.md) |
 
 ---
 
@@ -23,7 +23,7 @@ This repository contains detailed write-ups regarding TryHackMe challenge rooms,
 
 | Room | TryHackMe | Walkthrough |
 |------|-----------|-------------|
-| Dead Drop | [Room](https://tryhackme.com/room/dead-drop) | [Technical Walkthrough](Active%20Directory/Deaddrop/DeadDrop.md) |
+| Dead Drop | [Room](https://tryhackme.com/room/dead-drop) | [Technical Walkthrough](Active%20Directory/DeadDrop/DeadDrop.md) |
 
 ---
 
