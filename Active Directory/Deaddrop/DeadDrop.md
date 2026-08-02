@@ -7,6 +7,14 @@
 **Techniques**: SQL Injection, RCE, APK Reverse Engineering, Ligolo-ng, BloodHound <br>
 **Final Goal**: Domain Administrator
 
+## Executive Summary
+
+This assessment evaluated the security of the **Dead Drop** environment, which consisted of a publicly accessible web application, a Linux web server, and an internal Active Directory domain separated by a DMZ. The objective was to determine whether an attacker could compromise the external-facing infrastructure and gain access to critical internal systems.
+
+The assessment demonstrated that multiple security weaknesses could be chained together to achieve complete compromise of the Active Directory domain. An initial compromise of the public web application ultimately provided a pathway into the internal network, where additional configuration and access control weaknesses enabled administrative control of the domain.
+
+Although the DMZ limited direct access to internal systems, the compromise of the Internet-facing server allowed the attacker to bypass this boundary and move laterally through the environment. The findings highlight the importance of securing public-facing applications, protecting sensitive credentials, enforcing the principle of least privilege, and regularly reviewing Active Directory permissions to reduce the risk of full domain compromise.
+
 ## Overview
 
 Dead Drop simulates an enterprise environment where a publicly accessible Linux web server is separated from an internal Active Directory network by a DMZ. The objective is to compromise the exposed host, pivot into the internal network, enumerate Active Directory, and escalate privileges to obtain full control of the domain.

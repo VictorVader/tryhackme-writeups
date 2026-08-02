@@ -15,7 +15,7 @@ This repository contains detailed write-ups regarding TryHackMe challenge rooms,
 
 | Room | TryHackMe | Walkthrough |
 |------|-----------|-------------|
-| *Coming Soon* | - | - |
+| Jump | [Room](https://tryhackme.com/room/jump) | [Technical Walkthrough](Network/Jump/Jump.md) |
 
 ---
 
@@ -23,7 +23,7 @@ This repository contains detailed write-ups regarding TryHackMe challenge rooms,
 
 | Room | TryHackMe | Walkthrough |
 |------|-----------|-------------|
-| Dead Drop | [Room](https://tryhackme.com/room/dead-drop) | [Technical Walkthrough](Active%20Directory/DeadDrop/DeadDrop.md) |
+| Dead Drop | [Room](https://tryhackme.com/room/dead-drop) | [Technical Walkthrough](Active%20Directory/Deaddrop/DeadDrop.md) |
 
 ---
 

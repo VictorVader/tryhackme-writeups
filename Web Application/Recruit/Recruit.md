@@ -7,6 +7,14 @@
 **Techniques**: LFI, Information Disclosure, SQL Injection <br>
 **Final Goal**: Administrator Access
 
+## Executive Summary
+
+This assessment evaluated the security of the **Recruit** web application, a recruitment portal used to manage candidate information and administrative hiring activities. The objective was to determine whether an unauthenticated attacker could identify weaknesses that would lead from unauthorised access to privileged functionality.
+
+The assessment identified several vulnerabilities, including information disclosure, Local File Inclusion (LFI), and SQL Injection. While each issue presented a limited risk individually, they could be combined to obtain valid user credentials, access the Human Resources portal, and ultimately compromise the administrator account.
+
+The assessment demonstrates the importance of protecting sensitive information, validating user input, and implementing secure authentication and coding practices. Addressing these weaknesses would significantly reduce the likelihood of unauthorised access to the application and the sensitive information it manages.
+
 ## Overview
 
 Recruit simulates a recruitment portal used by an organisation's Human Resources department to manage candidate applications. The objective is to assess the security of the web application, identify exposed functionality, exploit discovered vulnerabilities, and ultimately gain administrator access.
