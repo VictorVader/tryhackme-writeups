@@ -17,7 +17,7 @@ This repository contains detailed write-ups regarding TryHackMe challenge rooms,
 | Room | TryHackMe | Walkthrough | Details |
 |------|-----------|-------------|---------|
 | Jump | [Room](https://tryhackme.com/room/jump) | [Technical Walkthrough](Network/Jump/Jump.md) | Explains how multiple Linux privilege escalation opportunities, including writable scripts, PATH hijacking, and sudo misconfigurations, can be chained from anonymous FTP access to root. |
-| Windows Jump | [Room](https://tryhackme.com/room/windowsjump) | [Technical Walkthrough](Network/Windows%20Jump/Windows%20Jump.md) | Demonstrates a Windows privilege escalation chain that progresses from guest access to NT AUTHORITY\SYSTEM by abusing exposed credentials, writable services, and scheduled tasks. |
+| Windows Jump | [Room](https://tryhackme.com/room/windowsjump) | [Technical Walkthrough](Network/Windows%20Jump/Windows%20Jump.md) | Details a Windows privilege escalation chain that progresses from guest access to NT AUTHORITY\SYSTEM by abusing exposed credentials, writable services, and scheduled tasks. |
 
 ---
 
@@ -25,6 +25,7 @@ This repository contains detailed write-ups regarding TryHackMe challenge rooms,
 
 | Room | TryHackMe | Walkthrough | Details |
 |------|-----------|-------------|---------|
+| Proxy | [Room](https://tryhackme.com/room/proxychallenge) | [Technical Walkthrough](Active%20Directory/Proxy/Proxy.md) | Covers how anonymous SMB access, Active Directory coercion, NetNTLMv2 credential recovery, and constrained delegation can be chained to achieve Domain Administrator access. |
 | Dead Drop | [Room](https://tryhackme.com/room/dead-drop) | [Technical Walkthrough](Active%20Directory/Deaddrop/DeadDrop.md) | Demonstrates how weaknesses across a web application, mobile application, and Active Directory can be chained together to achieve full domain compromise. |
 
 ---
