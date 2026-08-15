@@ -26,6 +26,7 @@ This repository contains detailed write-ups regarding TryHackMe challenge rooms,
 | Room | TryHackMe | Walkthrough | Details |
 |------|-----------|-------------|---------|
 | Proxy | [Room](https://tryhackme.com/room/proxychallenge) | [Technical Walkthrough](Active%20Directory/Proxy/Proxy.md) | Covers how anonymous SMB access, Active Directory coercion, NetNTLMv2 credential recovery, and constrained delegation can be chained to achieve Domain Administrator access. |
+| Forward | [Room](https://tryhackme.com/room/forwardchallenge) | [Technical Walkthrough](Active%20Directory/Forward/Forward.md) | Explores how insecure credential management, password reuse, and excessive Active Directory delegation can be chained through Resource-Based Constrained Delegation to obtain SYSTEM access on a Domain Controller. |
 | Dead Drop | [Room](https://tryhackme.com/room/dead-drop) | [Technical Walkthrough](Active%20Directory/Deaddrop/DeadDrop.md) | Demonstrates how weaknesses across a web application, mobile application, and Active Directory can be chained together to achieve full domain compromise. |
 
 ---
