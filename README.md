@@ -18,6 +18,7 @@ This repository contains detailed write-ups regarding TryHackMe challenge rooms,
 |------|-----------|-------------|---------|
 | Jump | [Room](https://tryhackme.com/room/jump) | [Technical Walkthrough](Network/Jump/Jump.md) | Explains how multiple Linux privilege escalation opportunities, including writable scripts, PATH hijacking, and sudo misconfigurations, can be chained from anonymous FTP access to root. |
 | Windows Jump | [Room](https://tryhackme.com/room/windowsjump) | [Technical Walkthrough](Network/Windows%20Jump/Windows%20Jump.md) | Details a Windows privilege escalation chain that progresses from guest access to NT AUTHORITY\SYSTEM by abusing exposed credentials, writable services, and scheduled tasks. |
+| Silent Monitor | [Room](https://tryhackme.com/room/silent-monitor) | [Technical Walkthrough](Network/Silent%20Monitor/Silent%20Monitor.md) | Covers how SQL Injection, command injection, exposed credentials, and an insecure KeePass backup can be chained to progress from web application access to full root compromise. |
 
 ---
 
