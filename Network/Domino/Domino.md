@@ -421,7 +421,7 @@ secret = b'<APP_KEY value>'
 
 # Define the user data payload and convert it to a compact JSON string (no whitespace)
 payload = json.dumps(
-    {"user_id": 1, "username": "laura.hayes", "role": "admin"},
+    {"id": 1, "username": "laura.hayes", "role": "admin"},
     separators=(',', ':')
 )
 
