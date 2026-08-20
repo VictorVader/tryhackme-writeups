@@ -20,6 +20,7 @@ This repository contains detailed write-ups regarding TryHackMe challenge rooms,
 | Windows Jump | [Room](https://tryhackme.com/room/windowsjump) | [Technical Walkthrough](Network/Windows%20Jump/Windows%20Jump.md) | Details a Windows privilege escalation chain that progresses from guest access to NT AUTHORITY\SYSTEM by abusing exposed credentials, writable services, and scheduled tasks. |
 | Domino | [Room](https://tryhackme.com/room/domino) | [Technical Walkthorugh](Network/Domino/Domino.md) | Follows an attack chain combining user enumeration, credential reuse, IDOR, JWT manipulation, Remote File Inclusion, and writable root-executed scripts to progress from a low-privileged web account to full root access. |
 | Silent Monitor | [Room](https://tryhackme.com/room/silent-monitor) | [Technical Walkthrough](Network/Silent%20Monitor/Silent%20Monitor.md) | Covers how SQL Injection, command injection, exposed credentials, and an insecure KeePass backup can be chained to progress from web application access to full root compromise. |
+| Operation Promotion | [Room](https://tryhackme.com/room/operationpromotion) | [Technical Walkthrough](Network/Operation%20Promotion/Operation%20Promotion.md) | Explores how SQL Injection, command injection, exposed credentials, targeted password cracking, and a sudo misconfiguration can be chained to progress from unauthorised web application access to full root compromise. |
 
 ---
 
