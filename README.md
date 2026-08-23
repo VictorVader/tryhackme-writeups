@@ -21,6 +21,7 @@ This repository contains detailed write-ups regarding TryHackMe challenge rooms,
 | Domino | [Room](https://tryhackme.com/room/domino) | [Technical Walkthorugh](Network/Domino/Domino.md) | Follows an attack chain combining user enumeration, credential reuse, IDOR, JWT manipulation, Remote File Inclusion, and writable root-executed scripts to progress from a low-privileged web account to full root access. |
 | Silent Monitor | [Room](https://tryhackme.com/room/silent-monitor) | [Technical Walkthrough](Network/Silent%20Monitor/Silent%20Monitor.md) | Covers how SQL Injection, command injection, exposed credentials, and an insecure KeePass backup can be chained to progress from web application access to full root compromise. |
 | Operation Promotion | [Room](https://tryhackme.com/room/operationpromotion) | [Technical Walkthrough](Network/Operation%20Promotion/Operation%20Promotion.md) | Explores how SQL Injection, command injection, exposed credentials, targeted password cracking, and a sudo misconfiguration can be chained to progress from unauthorised web application access to full root compromise. |
+| Operation Coldstart | [Room](https://tryhackme.com/room/operationcoldstart) | [Technical Walkthrough](Network/Operation%20Coldstart/Operation%20Coldstart.md) | Demonstrates how anonymous FTP access, source code disclosure, SSRF, credential exposure, and cron wildcard injection lead from exploring a web application to root access on its hosting machine.|
 
 ---
 

@@ -366,7 +366,7 @@ The room highlights the importance of securing both application functionality an
 
 # Remediation Recommendations
 
-The compromise of the Silent Monitor environment was achieved by chaining several independent weaknesses. Addressing the following issues would significantly reduce the application's attack surface and limit the impact of a successful compromise.
+The compromise of the Silent Monitor environment was achieved by chaining several independent vulnerabilities. Addressing the following issues would significantly reduce the application's attack surface and limit the impact of a successful compromise.
 
 | Finding | Recommendation |
 |---------|----------------|
