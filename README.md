@@ -9,6 +9,7 @@ This repository contains detailed write-ups regarding TryHackMe challenge rooms,
 |------|-----------|-------------|---------|
 | Recruit | [Room](https://tryhackme.com/room/recruitwebchallenge) | [Technical Walkthrough](Web%20Application/Recruit/Recruit.md) | Explores a realistic web application attack chain, combining information disclosure, Local File Inclusion, and SQL Injection to obtain administrator access. |
 | Support | [Room](https://tryhackme.com/room/support) | [Technical Walkthrough](Web%20Application/Support/Support.md) | Exploits authentication and access control vulnerabilities to obtain privileged access and ultimately achieve remote code execution on the target. |
+| Interceptor | [Room](https://tryhackme.com/room/interceptor) | [Technical Walkthrough](Web%20Application/Interceptor/Interceptor.md) | Combines information disclosure, authentication bypass, and SSRF to progress from administrative access to local file disclosure and ultimately retrieve the final flag. | 
 
 ---
 
