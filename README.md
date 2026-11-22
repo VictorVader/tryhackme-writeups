@@ -1,5 +1,5 @@
 # tryhackme-writeups
-This repository contains detailed write-ups regarding TryHackMe challenge rooms, excellent for people aiming to study for the PT1 exam.
+This repository contains detailed write-ups regarding TryHackMe challenge rooms, excellent for people aiming to study for the PT1 exam and more!
 
 ## Contents
 
@@ -33,6 +33,14 @@ This repository contains detailed write-ups regarding TryHackMe challenge rooms,
 | Proxy | [Room](https://tryhackme.com/room/proxychallenge) | [Technical Walkthrough](Active%20Directory/Proxy/Proxy.md) | Covers how anonymous SMB access, Active Directory coercion, NetNTLMv2 credential recovery, and constrained delegation can be chained to achieve Domain Administrator access. |
 | Forward | [Room](https://tryhackme.com/room/forwardchallenge) | [Technical Walkthrough](Active%20Directory/Forward/Forward.md) | Explores how insecure credential management, password reuse, and excessive Active Directory delegation can be chained through Resource-Based Constrained Delegation to obtain SYSTEM access on a Domain Controller. |
 | Dead Drop | [Room](https://tryhackme.com/room/dead-drop) | [Technical Walkthrough](Active%20Directory/Deaddrop/DeadDrop.md) | Demonstrates how weaknesses across a web application, mobile application, and Active Directory can be chained together to achieve full domain compromise. |
+
+---
+
+### Cloud | Azure
+
+| Room | TryHackMe | Walkthrough | Details |
+|------|-----------|-------------|---------|
+| Eyes Wide Shut | [Room](https://tryhackme.com/room/eyeswideshut) | [Technical Walkthrough](Azure/Eyes%20Wide%20Shut/Eyes%20Wide%20Shut.md) | Azure penetration-testing room focused on abusing overprivileged Managed Identities and Azure RBAC permissions to gain access to Key Vault secrets. |
 
 ---
 
