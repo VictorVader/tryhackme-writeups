@@ -1,7 +1,7 @@
-# Eyes Wide Shut Write-up
+# Azure: Eyes Wide Shut Write-up
 
 **Platform**: TryHackMe <br>
-**Room**: Eyes Wide Shut (https://tryhackme.com/room/eyeswideshut) <br>
+**Room**: Azure: Eyes Wide Shut (https://tryhackme.com/room/eyeswideshut) <br>
 **Category**: Cloud | Azure <br>
 **Target**: Microsoft Azure / Linux Virtual Machine <br>
 **Techniques**: Azure Enumeration, Managed Identity Abuse, RBAC Privilege Escalation, Key Vault Enumeration, Sensitive Data Exposure <br>

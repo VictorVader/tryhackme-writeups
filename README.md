@@ -40,7 +40,9 @@ This repository contains detailed write-ups regarding TryHackMe challenge rooms,
 
 | Room | TryHackMe | Walkthrough | Details |
 |------|-----------|-------------|---------|
-| Eyes Wide Shut | [Room](https://tryhackme.com/room/eyeswideshut) | [Technical Walkthrough](Azure/Eyes%20Wide%20Shut/Eyes%20Wide%20Shut.md) | Azure penetration-testing room focused on abusing overprivileged Managed Identities and Azure RBAC permissions to gain access to Key Vault secrets. |
+| Azure: Eyes Wide Shut | [Room](https://tryhackme.com/room/eyeswideshut) | [Technical Walkthrough](Azure/Eyes%20Wide%20Shut/Eyes%20Wide%20Shut.md) | Azure penetration-testing room focused on abusing overprivileged Managed Identities and Azure RBAC permissions to gain access to Key Vault secrets. |
+| Azure: Hoppity Hop | [Room](https://tryhackme.com/room/azhoppityhop) | [Technical Walkthrough](Azure/Hoppity%20Hop/Hoppity%20Hop.md) | Abuse an overprivileged Managed Identity and Virtual Machine Contributor permissions to reset local account credentials and gain access to another virtual machine. |
+| Azure: Tapper | [Room](https://tryhackme.com/room/tapper) | [Technical Walkthrough](Azure/Tapper/Tapper.md) | Exploit application permissions and user roles to create Temporary Access Passes, modify network configurations, and gain SSH access to a Linux virtual machine. |
 
 ---
 
